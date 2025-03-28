@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #ffebcc, #ffd699); /* Smooth gradient background */
+}
+
+h1 {
+    color: #ff5733; /* Bright red-orange */
+    text-shadow: 2px 2px 3px rgba(189, 12, 166, 0.2); /* 3D text effect */
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(204, 4, 204, 0.2); /* 3D effect */
+}
+
+input, select {
+    border: 2px solid #ff9800; /* Bright orange border */
+    background: #fff;
+}
+
+button {
+    background: linear-gradient(to bottom, #ffcc00, #ff9900); /* Gradient for 3D effect */
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #ff9900, #e65c00);
+    transform: translateY(2px); /* Pressed button effect */
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: linear-gradient(to right, #87d6e6, #50b3c6); /* Gradient table background */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* 3D effect */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 2px solid #ff9800;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+th {
+    background: linear-gradient(to bottom, #ffcc80, #ffb347); /* Gradient for header */
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+select {
+    cursor: pointer;
+    background: linear-gradient(to bottom, #ffff99, #ffeb3b); /* Yellow gradient */
+    border: 2px solid #ff9800;
+}
+
